@@ -53,4 +53,4 @@ class QuadraticDependence(Dependence):
         return 'Quadratic Dependence'
     
     def exp(self):
-        return '{}x^2 + {}x + {}'.format(self.a, self.b, self.c)
+        return '{:.3f}x^2 + {:.3f}x + {:.3f}'.format(self.a, self.b, self.c)
